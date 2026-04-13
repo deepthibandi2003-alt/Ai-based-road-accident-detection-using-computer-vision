@@ -979,4 +979,5 @@ if __name__ == "__main__":
         print(f"  [!] Model not found at '{MODEL_PATH}' → DEMO mode active")
     print("  Open: http://127.0.0.1:5000/")
     print("=" * 55)
-    app.run(debug=False, threaded=True, host="127.0.0.1", port=5000)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
