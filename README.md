@@ -1,71 +1,98 @@
- AI-Based Road Accident Detection using Computer Vision
- 
-Project Description
+Here is your **final ready-to-upload `README.md` file** ✅
+👉 Just **copy & paste this into README.md in your GitHub repo** (only change your username once).
+
+---
+
+# 🚗 AI-Based Road Accident Detection using Computer Vision
+
+![Visitors](https://komarev.com/ghpvc/?username=deepthi-bandi\&label=Profile%20Views\&color=blue\&style=flat)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-black)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![YOLO](https://img.shields.io/badge/Model-YOLO-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+---
+
+## 📌 Project Description
 
 This project is a web-based application that detects road accidents from traffic videos using Computer Vision and intelligent decision-making techniques. The system processes uploaded videos frame-by-frame and identifies accidents based on object detection and motion analysis. It helps improve road safety by providing faster detection and alert generation.
-___________________________________________________________________________________________________________________________________________________________________
-Objectives
-_________________________________________________________________________________________________________________________________________________________________
-Detect road accidents automatically
-Reduce manual monitoring effort
-Provide real-time alerts
-Improve road safety using AI
 
-Features
-______________________________________________________________________________________________________________________________________________________________________
-Upload traffic video
-Frame-by-frame video processing
-Vehicle detection using YOLO
-Motion detection using MOG2
-Accident detection using decision logic
-Display results with bounding boxes
-Alert generation system
+---
 
-Algorithms Used
-_________________________________________________________________________________________________________________________________________________________________________
-🔹 YOLO (You Only Look Once)
-Used for object detection
-Detects vehicles like cars, bikes
-High speed and accuracy
-🔹 MOG2 (Background Subtraction)
-Detects moving objects
-Identifies motion changes
-Helps in tracking abnormal movement
-🔹 Decision Tree (Logical Decision Making)
-Used to decide whether an accident occurred or not
-Works based on conditions like:
-Sudden change in motion
-Vehicle collision detection
-Abnormal object behavior
-If conditions are TRUE → Accident Detected
-Else → No Accident
+## 🎯 Objectives
 
-Accident Detection Logic (Decision Flow)
-__________________________________________________________________________________________________________________________________________________________________________
+* Detect road accidents automatically
+* Reduce manual monitoring effort
+* Provide real-time alerts
+* Improve road safety using AI
+
+---
+
+## ⚙️ Features
+
+* Upload traffic video through web interface
+* Frame-by-frame video processing
+* Vehicle detection using YOLO
+* Motion detection using MOG2
+* Accident detection using decision logic
+* Bounding box visualization
+* Alert notification system
+
+---
+
+## 🧠 Algorithms Used
+
+### 🔹 YOLO (You Only Look Once)
+
+* Detects vehicles like cars, bikes
+* High speed and accuracy
+
+### 🔹 MOG2 (Background Subtraction)
+
+* Detects moving objects
+* Identifies abnormal motion
+
+### 🔹 Decision Tree (Logic-Based)
+
+* Checks conditions
+* Decides accident or not
+* Rule-based detection
+
+---
+
+## 🌳 Accident Detection Flow
+
+```text
 Start
-  ↓
-Detect Vehicles (YOLO)
-  ↓
-Analyze Motion (MOG2)
-  ↓
-Is motion abnormal?
-      ↓
-     Yes --------→ Is collision detected?
-                      ↓
-                    Yes → 🚨 Accident Detected
-                    No  → Normal Movement
-      ↓
-     No  → No Accident
+ ↓
+Vehicle Detection (YOLO)
+ ↓
+Motion Analysis (MOG2)
+ ↓
+Abnormal Motion?
+   ↓
+  Yes → Collision Check → 🚨 Accident Detected
+  No  → Normal Movement
+```
 
-Technologies Used
-______________________________________________________________________________________________________________________________
-Language: Python
-Framework: Flask
-Libraries: OpenCV, NumPy, SciPy, YOLO
-Tools: VS Code, Jupyter Notebook
+---
 
-Project Structure
-_________________________________________________________________________________________________________________________________________
+## 🛠️ Technologies Used
+
+* Python
+* Flask
+* OpenCV
+* NumPy
+* SciPy
+* YOLO Model
+
+---
+
+## 📂 Project Structure
+
+```bash
 project/
 │── app.py
 │── templates/
@@ -73,50 +100,67 @@ project/
 │── uploads/
 │── best.pt
 │── requirements.txt
+```
 
-How to Run
-________________________________________________________________________________________________________________________________________________
-1. Install Dependencies
+---
+
+## ▶️ How to Run
+
+```bash
 pip install -r requirements.txt
-2. Run Application
 python app.py
-3. Open in Browser
-http://127.0.0.1:5000/
+```
 
-Working
-________________________________________________________________________________________________________________________________________________________
-Upload video
-Extract frames
-Detect vehicles using YOLO
-Detect motion using MOG2
-Apply decision logic (Decision Tree concept)
-Detect accident
-Display result + alert
+🌐 Open in browser:
+[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-Outputs
-_____________________________________________________________________________________________________________________________________________________________
-Video Upload Screen
-Processing Screen
-No Accident Screen
-Accident Detection Screen
-Alert Screen
+---
 
-Advantages
-_________________________________________________________________________________________________________________________________________________________________
-Fast detection
-Automated system
-User-friendly
-Improves safety
+## 🔄 Working Process
 
-Limitations
-______________________________________________________________________________________________________________________________________________________________________
-Depends on video quality
-False positives possible
-Needs proper training data
+1. Upload traffic video
+2. Extract video frames
+3. Detect vehicles using YOLO
+4. Detect motion using MOG2
+5. Apply decision logic
+6. Detect accident
+7. Display result and alert
 
-Future Scope
-___________________________________________________________________________________________________________________________________________________________________________-
-Real-time CCTV integration
-GPS tracking
-SMS alert system
-Advanced AI models
+---
+
+## 📸 Outputs
+
+* Video Upload Screen
+* Processing Screen
+* No Accident Screen
+* Accident Detection Screen
+* Alert Notification Screen
+
+---
+
+## ✅ Advantages
+
+* Fast detection
+* Automated system
+* Easy to use
+* Improves safety
+
+---
+
+## ❌ Limitations
+
+* Depends on video quality
+* False detection possible
+* Requires trained model
+
+---
+
+## 🔮 Future Scope
+
+* Real-time CCTV integration
+* GPS-based location tracking
+* SMS/Email alert system
+* Advanced deep learning models
+
+---
+
