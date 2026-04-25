@@ -2,7 +2,7 @@
 Project Description
 
 This project is a web-based application that detects road accidents from traffic videos using Computer Vision and intelligent decision-making techniques. The system processes uploaded videos frame-by-frame and identifies accidents based on object detection and motion analysis. It helps improve road safety by providing faster detection and alert generation.
-
+___________________________________________________________________________________________________________________________________________________________________
 Objectives
 Detect road accidents automatically
 Reduce manual monitoring effort
