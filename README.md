@@ -5,14 +5,14 @@ Project Description
 This project is a web-based application that detects road accidents from traffic videos using Computer Vision and intelligent decision-making techniques. The system processes uploaded videos frame-by-frame and identifies accidents based on object detection and motion analysis. It helps improve road safety by providing faster detection and alert generation.
 ___________________________________________________________________________________________________________________________________________________________________
 Objectives
-
+_________________________________________________________________________________________________________________________________________________________________
 Detect road accidents automatically
 Reduce manual monitoring effort
 Provide real-time alerts
 Improve road safety using AI
 
 Features
-
+______________________________________________________________________________________________________________________________________________________________________
 Upload traffic video
 Frame-by-frame video processing
 Vehicle detection using YOLO
@@ -22,7 +22,7 @@ Display results with bounding boxes
 Alert generation system
 
 Algorithms Used
-
+_________________________________________________________________________________________________________________________________________________________________________
 🔹 YOLO (You Only Look Once)
 Used for object detection
 Detects vehicles like cars, bikes
@@ -41,7 +41,7 @@ If conditions are TRUE → Accident Detected
 Else → No Accident
 
 Accident Detection Logic (Decision Flow)
-
+__________________________________________________________________________________________________________________________________________________________________________
 Start
   ↓
 Detect Vehicles (YOLO)
@@ -58,14 +58,14 @@ Is motion abnormal?
      No  → No Accident
 
 Technologies Used
-
+______________________________________________________________________________________________________________________________
 Language: Python
 Framework: Flask
 Libraries: OpenCV, NumPy, SciPy, YOLO
 Tools: VS Code, Jupyter Notebook
 
 Project Structure
-
+_________________________________________________________________________________________________________________________________________
 project/
 │── app.py
 │── templates/
@@ -75,7 +75,7 @@ project/
 │── requirements.txt
 
 How to Run
-
+________________________________________________________________________________________________________________________________________________
 1. Install Dependencies
 pip install -r requirements.txt
 2. Run Application
@@ -84,7 +84,7 @@ python app.py
 http://127.0.0.1:5000/
 
 Working
-
+________________________________________________________________________________________________________________________________________________________
 Upload video
 Extract frames
 Detect vehicles using YOLO
@@ -94,7 +94,7 @@ Detect accident
 Display result + alert
 
 Outputs
-
+_____________________________________________________________________________________________________________________________________________________________
 Video Upload Screen
 Processing Screen
 No Accident Screen
@@ -102,19 +102,20 @@ Accident Detection Screen
 Alert Screen
 
 Advantages
-
+_________________________________________________________________________________________________________________________________________________________________
 Fast detection
 Automated system
 User-friendly
 Improves safety
 
 Limitations
-
+______________________________________________________________________________________________________________________________________________________________________
 Depends on video quality
 False positives possible
 Needs proper training data
 
 Future Scope
+___________________________________________________________________________________________________________________________________________________________________________-
 Real-time CCTV integration
 GPS tracking
 SMS alert system
