@@ -1,7 +1,4 @@
-Here is your **final ready-to-upload `README.md` file** ✅
-👉 Just **copy & paste this into README.md in your GitHub repo** (only change your username once).
 
----
 
 # 🚗 AI-Based Road Accident Detection using Computer Vision
 
